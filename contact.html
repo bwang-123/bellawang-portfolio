@@ -1,96 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CHANGE: Update with your name -->
-    <title>Contact - Your Name</title>
+    <title>Resume - Bella Wang</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ============================================ -->
+
     <!-- NAVIGATION BAR -->
-    <!-- ============================================ -->
     <nav class="navbar">
         <div class="nav-container">
-            <!-- CHANGE: Replace "Your Name" with your actual name -->
-            <a href="index.html" class="nav-logo">Your Name</a>
+            <a href="index.html" class="nav-logo">Bella Wang</a>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about_me.html" class="nav-link">About Me</a></li>
-                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="portfolio.html" class="nav-link">My Work</a></li>
+                <li><a href="contact.html" class="nav-link active">Resume</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- ============================================ -->
-    <!-- CONTACT SECTION -->
-    <!-- ============================================ -->
+    <!-- RESUME SECTION -->
     <section class="contact-section">
         <div class="container">
-            <h2 class="section-title">Resume</h2>
-            <p class="section-subtitle">I'd love to hear from you</p>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    
-                    <!-- ============================================ -->
-                    <!-- EMAIL                                       -->
-                    <!-- CHANGE: Replace with your actual email       -->
-                    <!-- ============================================ -->
-                    <div class="contact-item">
-                        <div class="contact-icon">📧</div>
-                        <div>
-                            <h3>Email</h3>
-                            <!-- CHANGE: Put your email in both places -->
-                            <a href="mailto:youremail@example.com">youremail@example.com</a>
-                        </div>
-                    </div>
-                    
-                    <!-- ============================================ -->
-                    <!-- LINKEDIN                                    -->
-                    <!-- CHANGE: Replace with your LinkedIn profile  -->
-                    <!-- ============================================ -->
-                    <div class="contact-item">
-                        <div class="contact-icon">💼</div>
-                        <div>
-                            <h3>LinkedIn</h3>
-                            <!-- Example: https://linkedin.com/in/johnsmith -->
-                            <a href="https://linkedin.com/in/yourprofile" target="_blank">
-                                linkedin.com/in/yourprofile
-                            </a>
-                        </div>
-                    </div>
-                    
-                    
-                    <!-- ============================================ -->
-                    <!-- OTHER LINK (OPTIONAL)                       -->
-                    <!-- CHANGE: Add another link or delete this     -->
-                    <!-- ============================================ -->
-                    <div class="contact-item">
-                        <div class="contact-icon">🌐</div>
-                        <div>
-                            <h3>Other</h3>
-                            <!-- CHANGE: Add your link and text, or delete this whole contact-item block -->
-                            <a href="https://yourwebsite.com" target="_blank">
-                                Add another link here (e.g., personal blog)
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
+
+            <h2 class="section-title">My Resume</h2>
+            <p class="section-subtitle">
+                View my resume below or download a copy.
+            </p>
+
+            <!-- DOWNLOAD BUTTON -->
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="files/Bella%20Wang%20Resume.pdf"
+                   download="Bella_Wang_Resume.pdf"
+                   style="
+                       display: inline-block;
+                       background-color: #3e607d;
+                       color: white;
+                       padding: 14px 30px;
+                       border-radius: 6px;
+                       text-decoration: none;
+                       font-weight: bold;
+                   ">
+                    Download Resume
+                </a>
             </div>
+
+            <!-- EMBEDDED PDF -->
+            <div style="
+                max-width: 900px;
+                margin: 0 auto;
+                background: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            ">
+                <iframe
+                    src="files/Bella%20Wang%20Resume.pdf"
+                    width="100%"
+                    height="900"
+                    style="border: none; display: block;"
+                    title="Bella Wang Resume">
+                </iframe>
+            </div>
+
         </div>
     </section>
 
-    <!-- ============================================ -->
     <!-- FOOTER -->
-    <!-- ============================================ -->
     <footer class="footer">
         <div class="container">
-            <!-- CHANGE: Replace "Your Name" and year -->
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2026 Bella Wang. All rights reserved.</p>
         </div>
     </footer>
 
